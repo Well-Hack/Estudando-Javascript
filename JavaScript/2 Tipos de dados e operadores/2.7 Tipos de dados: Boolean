@@ -1,0 +1,7 @@
+Boolean ou boleana
+*Serve para guardar um valor de uma comparação, por exemplo:
+*Os unicos valores possíveis são:
+*True (Verdadeiro);
+*False (Falso);
+*Console.log(5 > 2);
+*Console.log(3 + 11);
