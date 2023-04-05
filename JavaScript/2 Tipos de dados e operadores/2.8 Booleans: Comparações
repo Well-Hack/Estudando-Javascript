@@ -1,0 +1,9 @@
+Boolenas: Comparações
+
+> = Maior
+< = Menor
+>= = Maior ou igual
+<= = Menor ou igual
+== igual
+!= Diferente
+=== Identico (Ele verifica se é o mesmo tipo de variavel, exemplo se os dois são number ou strings)
