@@ -1,8 +1,1 @@
-console.log(true && true)
-console.log(false && true)
-console.log(false || false)
-console.log(true || false)
-console.log(!true)
-console.log(26 > 25 && 3 < 2)
-console.log(26 > 25 || 3 < 2)
-console.log(!(26 > 25 || 3 < 2))
+console.log(5 > 8? "É sim": "É não");

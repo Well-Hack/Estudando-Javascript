@@ -1,0 +1,5 @@
+Booleans: Operador Ternário
+*Faz um comparativo em apenas uma linha de código;
+console.log(true? 1:2)
+console.log(false?"falso":"verdadeiro");
+Não é muito utilizado e pode deixar o código complicado de ler;
