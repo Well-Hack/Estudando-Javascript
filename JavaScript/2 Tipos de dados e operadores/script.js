@@ -1,4 +1,5 @@
-console.log(typeof "Oi, meu nome é Welleson");
-console.log(typeof "Eu queria comprar um apartamento");
-console.log(typeof "teste");
+console.log("Oi, \n meu nome é Wellerson");
+console.log('Ola, isso é um "teste" para botar aspas')
+console.log("salada " + "de " + "fruta")
+console.log(`A soma de 2 + 2 é: ${2+2}`)
 

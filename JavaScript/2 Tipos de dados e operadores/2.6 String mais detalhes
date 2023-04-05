@@ -1,0 +1,8 @@
+Strings: Detalhes tecnicos
+
+A '\' pode dar um "escape" na String, e isso permite "efeitos especiais";
+Por exemplo: '\n' pula a linha
+O template literals serva para computar valores também, ex:
+*console.log("A soma 2 + 2 é ${2+2}");
+Concatenação de String é um processo de "Somar" Strings, veja:
+console.log("salada" + "de" + "fruta")
