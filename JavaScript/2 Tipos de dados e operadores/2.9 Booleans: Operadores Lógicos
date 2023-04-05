@@ -1,0 +1,5 @@
+Booleans: Operadores Lógicos
+Por meio de uma comparação resultam em um Boolean
+&& porta lógico AND = Os dois tem que ser iguais na saida verdadeira
+|| porta lógica OR = Qualquer um dos dois tem que ter a saida verdadeira
+! porta lógica NOT = Inverte a entrada, ou seja, se entoru false, vai sair true, ou vise-versa 
