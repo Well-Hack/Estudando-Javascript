@@ -1,0 +1,5 @@
+Strings
+* String = Texto;
+* console.log(typeof "Isso é uma string");
+* console.log(typeof "Este texto aqui também")
+* console.log(typeof "E este também");(template literals)
