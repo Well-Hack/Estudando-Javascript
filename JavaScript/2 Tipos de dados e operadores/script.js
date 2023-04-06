@@ -1,1 +1,2 @@
-console.log(5 > 8? "É sim": "É não");
+console.log("quatro" - "vinte");
+console.log(undefined);
