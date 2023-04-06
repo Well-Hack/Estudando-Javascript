@@ -1,0 +1,3 @@
+console.log('Este é um texto com "aspas" duplas');
+console.log("Este é um texto com 'aspas' unicas");
+console.log(`Este é um texto com templates literals`);
