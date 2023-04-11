@@ -6,3 +6,9 @@
 *Statements 'guiam' o software para o seu objetivo;
 *Expressions são os valores que o sstatements esperam
 para guiar o software;
+------------------+---------------------------
+*Nós ja vimos statements e expressions de forma simples;
+*Statements: console.log(1>2);
+*Expressions: console.log('batata')
+*Porém ainda não é o suficiente para criar um software;
+*E é essa junção dos conceitos nosso objetivo nesta seção!
