@@ -3,5 +3,11 @@ Como salva valores na memória
 *let laranjas = 5;
 *E depois podemos criar expressões com os valores salvos;
 *Console.log(laranjas * laranjas);
-*Console.log(`Tem ${laranjas} na sexta`)
+*Console.log(`Tem ${laranjas} na cesta`)
 --------------------*--------------------------
+*Podemos também mudar o valor que foi salvo anteriormente:
+* laranjas += 1;
+*console.log(laranjas);
+*Um let pode definir varias variáveis também;
+let quadrado = 4, triangulo = 3, retangulo = 4;
+console.log(quadrado *(triangulo + retangulo));
