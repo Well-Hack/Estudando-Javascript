@@ -1,3 +1,8 @@
 *É um conjunto de declarações (statements);
 *statements são conjuntos de expressões(expressions);
 *Expressions é todo fragmento de código que produz um valor;
+------------------+---------------------------
+*Software tem um 'objetivo';
+*Statements 'guiam' o software para o seu objetivo;
+*Expressions são os valores que o sstatements esperam
+para guiar o software;
