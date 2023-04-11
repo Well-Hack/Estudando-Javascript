@@ -1,0 +1,7 @@
+Como salva valores na memória
+*Salvamos os valores em variáveis(isso é um statement);
+*let laranjas = 5;
+*E depois podemos criar expressões com os valores salvos;
+*Console.log(laranjas * laranjas);
+*Console.log(`Tem ${laranjas} na sexta`)
+--------------------*--------------------------
