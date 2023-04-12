@@ -1,0 +1,18 @@
+Palavras reservadas ECMAScript
+*Alguns nomes não podem ser utilizados para iniciar variáveis, veja:
+*
+-break
+-case
+-catch
+-class
+-const
+-continue
+-debugger
+-default
+-delete
+-else
+-do
+etc...
+*ex: let break = "parar";
+*Porém podemos usar elas + alguma palavra/digito:
+*Ex: let breakMatheus = 1;
