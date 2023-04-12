@@ -1,6 +1,5 @@
 let nome = 'Mateus';
-let laranjas = 5;
+const ip = "192.168.0.2";
 
-console.log(`Olá, o meu nome é ${nome}`)
-console.log(laranjas * laranjas)
-console.log(laranjas += 1)
+
+console.log(nome, ip)

@@ -1,0 +1,11 @@
+Maneiras de definir Variaveis
+*Podemos definir com var e const;
+*var nome = 'Pedro';
+*console.log(nome);
+const sobrenome = 'Soares';
+console.log(sobrenome)
+----------------------*-----------------------------
+*var é uma forma mais antiga, você deve optar por let ou const;
+*const vem de constante, ou seja, o seu valor não pode ser alterado;
+*Mais a frente no curso, veremos em detalhes diferenças de var, let e const;
+
