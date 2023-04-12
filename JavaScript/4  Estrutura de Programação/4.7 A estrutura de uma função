@@ -1,0 +1,11 @@
+A estrutura de uma função
+
+*Antes de mais nada: funções são chamadas durante o programa;
+*Você também pode ouvir: executar, chamar, invocar uma função;
+*E nós chamamos a função utilizando o nome dela + abrindo e fecha parenteses;
+
+nomeDaFuncao();
+
+
+*Também podemos inserir parametros, em algumas funções são obrigatórios/
+8Basicamente são valores que podem mudar o resultado da função;
