@@ -1,0 +1,7 @@
+COnvenção no nome das variáveis
+*Não pode começar com um número(let 2teste);
+*Mas pode terminar com numero(let teste9 = 'testando')
+*Pode ter $ ou _, mas não ouitros caracteres especiais (let $nome, _nome);
+*Mas não pode ter pontuação ou outros especiais(let @teste)
+*Podemos iniciar com letra maiúscula (let Nome = 'Matheus');
+*Ou usar o camelCase (let meuPrimeiroNome = 'Matheus');
