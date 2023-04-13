@@ -1,0 +1,5 @@
+Função built:in Math.x()
+*Funções utilizadas para expre~oes/calculos matematicos;
+*Ex: let maior Numero = Math.max(1,5,2,3);
+console.log(maiorsNumero);
+*Esta função é muito utilizada.
