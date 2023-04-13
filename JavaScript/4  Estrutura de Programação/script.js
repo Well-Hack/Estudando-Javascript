@@ -1,3 +1,3 @@
 
-let maior = Math.max(1,5,7,9,10,12);
+let maior = Math.ceil(5.1546879);
 console.log(maior)
