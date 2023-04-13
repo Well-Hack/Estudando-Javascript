@@ -1,0 +1,5 @@
+Função built-in: prompt()
+*Recebe um input do usuário do sistema e pode guardar este valor;
+*E: let idade = prompt('Qual sua idade?');
+*Console.log(idade);
+*Esta função é pouco utilizada;
