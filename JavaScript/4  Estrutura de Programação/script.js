@@ -1,3 +1,7 @@
+let idade = 9;
 
-let maior = Math.ceil(5.1546879);
-console.log(maior)
+if(idade >= 18){
+    console.log("Pode entrar")
+} else{
+    console.log("Não permitida a entrada")
+}
