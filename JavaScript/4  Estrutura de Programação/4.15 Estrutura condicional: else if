@@ -1,0 +1,4 @@
+Estrutura condicional: Else if
+*Ainda podemos encadear mais condições com o else if;
+*Ou seja, antes de executar um else, ou até mesmo sem ele,
+podemos verificar mais uma condição;
