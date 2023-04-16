@@ -1,0 +1,5 @@
+Forçando a saida do loop:break
+
+*As vezes precisamos parar o loop antes que complete todo o seu
+ciclo
+* Para isso utilizamos o break;

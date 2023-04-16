@@ -1,12 +1,12 @@
-let x = 0;
-let y = 0;
+let nome = "Matheus";
 
-if(x == 0 && y == 0){
-    let z = 5;
-        if(z > 2){
-            console.log(z);
-            for(i = 0; i < 5; i = i + 1){
-                console.log(i)
-        }
-    }  
+for(let i = 0; i < 10; i = i + 1){
+    if(i == 3){
+        nome = "João";
+    }
+    if(i == 5 && nome == "João"){
+        console.log("O nome é João")
+        break;
+    }
+    console.log(i);
 }
