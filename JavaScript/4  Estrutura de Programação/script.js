@@ -1,7 +1,8 @@
 
-let idade = 10
+let x = 100;
 
-while(idade < 19){
-    console.log(`A idade está em ${idade}`);
-    idade += 1;
+
+while(x >= 0){
+    console.log(x/2)
+    x = x - 10;
 }
