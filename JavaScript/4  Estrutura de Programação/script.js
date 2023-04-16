@@ -1,3 +1,12 @@
-for(let i = 0; i < 100; i += 1){
-    console.log(`A soma de i com 2 é: ${i + 2}`);
+let x = 0;
+let y = 0;
+
+if(x == 0 && y == 0){
+    let z = 5;
+        if(z > 2){
+            console.log(z);
+            for(i = 0; i < 5; i = i + 1){
+                console.log(i)
+        }
+    }  
 }
