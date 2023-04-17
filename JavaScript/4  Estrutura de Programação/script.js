@@ -1,8 +1,12 @@
-for(let i = 10; i > 0; i= i - 1){
+let nome = "Wellerson";
 
-    if(i % 2 == 0){
-        console.log("Caiu no 'continue'")
-        continue;
-    }
-    console.log(i)
+switch(nome) {
+    case "Marcos":
+        console.log("Olá Marcos");
+        break;
+    case "Wellerson":
+        console.log("Olá Wellerson");
+        break;
+    case "Luana":
+        console.log("Olá Luana");
 }
