@@ -7,8 +7,8 @@ Se a idade for maior que 18 e tem CNH, exiba uma mensagem;
 *Se não tiver 18 nem CNH, exiba outra mensage;
 */
 
-let idade = 15;
-let cnh = false;
+let idade = 19;
+let cnh = true;
 
 if(idade >= 18 && cnh == false){
     console.log("Você já é de maior, já pode tirar a CNH")
