@@ -5,7 +5,7 @@
 
 let s = "Palavra";
 let n = 5;
-let b = Null;
+let b = false
 
 console.log(typeof(s))
 console.log(typeof(n))
