@@ -11,3 +11,10 @@ function imprimir_um_numero(num){
 imprimir_um_numero(2);
 imprimir_um_numero(7);
 imprimir_um_numero(5);
+
+const numero_aleatorio = function() {
+    console.log(Math.random());
+}
+
+numero_aleatorio();
+numero_aleatorio();
