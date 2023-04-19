@@ -1,3 +1,6 @@
+//FOrmas de definir funções
+
+
 function imprimirNoConsole(){
     console.log("Hello World!");
 }
