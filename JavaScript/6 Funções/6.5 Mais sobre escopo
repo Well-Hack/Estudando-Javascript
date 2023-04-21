@@ -1,0 +1,6 @@
+Mais sobre escopo
+*Atualmente com LET e CONST, qualquer bloco de código pode separar
+seu escopo(um if por exemplo);
+*Isso é muito bom pois separa os contextos, com VAR isso não
+acontecia
+*Ou seja, podemos ter escopos diferente não só com funções
