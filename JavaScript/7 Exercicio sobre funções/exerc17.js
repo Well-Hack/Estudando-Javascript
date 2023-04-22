@@ -4,9 +4,8 @@
 */
 
 
-function idade(){
-    idade = 21
+function imprimir_idade(idade){
     console.log(`Você tem ${idade} anos de idade`)
 }
 
-idade();
+imprimir_idade(25);
