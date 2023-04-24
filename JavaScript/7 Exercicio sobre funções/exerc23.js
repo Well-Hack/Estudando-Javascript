@@ -10,11 +10,11 @@
 
 
 function string(st){
-    if(st > string.length(10)){
+    if(st.length > 10){
         console.log("Texto muito longo")
     }else{
-        return st;
+        return console.log(st);
     }
 }
 
-console.log("Olá, meu nome é Wellerson")
+string("Olá")
