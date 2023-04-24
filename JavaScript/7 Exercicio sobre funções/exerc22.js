@@ -7,9 +7,12 @@ Dica: Utilize a função Math.abs
 
 */
 
-function dados(n1){
-    console.log(Math.abs(n1))
-
+function dados (n1){
+    if(n1 < 0){
+        console.log(Math.abs(n1))
+    }else{
+        console.log(n1)
+    }
 }
 
-console.log(-18)
+n1(-1234)
