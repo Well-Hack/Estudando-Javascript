@@ -16,3 +16,5 @@ function dados(n1){
 }
 
 console.log(dados(-1234))
+console.log(dados(51))
+console.log(dados(0))
