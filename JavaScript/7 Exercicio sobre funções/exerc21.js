@@ -11,7 +11,7 @@
  */
 
 function detec(n1){
-    console.log(typeof(n1))
+    console.log(`Esse tipo de dado é ${typeof(n1)}`)
 }
 
 detec(5)
