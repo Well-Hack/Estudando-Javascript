@@ -10,7 +10,7 @@ Por exemplo; 3,2 = 9
 */
 
 function potencia(x,y){
-    return Math.pow(y,x);    
+    return Math.pow(x,y);    
 }
 
 console.log(potencia(2,2))
