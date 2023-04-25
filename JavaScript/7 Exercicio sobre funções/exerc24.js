@@ -9,6 +9,10 @@ Por exemplo; 3,2 = 9
 
 */
 
-function potencia(){
-    
+function potencia(x,y){
+    return Math.pow(y,x);    
 }
+
+console.log(potencia(2,2))
+console.log(potencia(3,2))
+console.log(potencia(4,4))
