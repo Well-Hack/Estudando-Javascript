@@ -5,3 +5,9 @@ let dados = {
 }
 
 console.log(dados.idade)
+console.log(dados)
+console.log(dados.nome)
+
+
+// [] Arrays (listas)
+// {} Objetos
