@@ -1,3 +1,11 @@
 Metodos arrays: push e pop
 
 Verificar a programação no js
+
+// Remove o elemento no fim do array
+pessoas.pop()
+
+
+
+// Inserir um elemento no fim do array
+pessoas.push("Josefina") 
