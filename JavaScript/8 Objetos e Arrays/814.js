@@ -5,3 +5,5 @@ console.log(numeros)
 
 console.log(numeros.slice(2,7))
 console.log(numeros.slice(5))
+
+console.log(numeros.slice(-3))
