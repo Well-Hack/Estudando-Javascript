@@ -10,4 +10,5 @@ const { rodas: v_rodas, portas: v_portas, teto_solar: v_teto_solar, motor: v_mot
 console.log(v_rodas)
 console.log(v_portas)
 console.log(v_teto_solar)
+console.log(teto_solar) //Não funciona por se tratar de objeto
 
