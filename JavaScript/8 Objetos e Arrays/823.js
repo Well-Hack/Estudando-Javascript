@@ -4,7 +4,7 @@ let n3 = 3;
 let n4 = 4;
 
 function imprimir_numero(...args){
-    for(let i = 0; i , args.length; i++){
+    for(let i = 0; i < args.length; i++){
         console.log(args[i]);
     }
 }
