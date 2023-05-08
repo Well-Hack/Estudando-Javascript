@@ -8,3 +8,10 @@ let pessoa = {
 let pessoatxt = JSON.stringify(pessoa);
 
 console.log(pessoatxt)
+
+
+let pessoasJSON = JSON.parse(pessoatxt)
+
+console.log(pessoasJSON)
+
+console.log(pessoasJSON.Hobbies[0])
