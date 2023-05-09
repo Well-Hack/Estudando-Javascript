@@ -9,6 +9,6 @@ let pessoas = ["Marcelo", "Carlos", "Wellerson", "Luana", "Jennifer"]
 
 console.log(pessoas)
 
-console.log(pessoas[1])
+console.log(pessoas[0])
+console.log(pessoas[2])
 console.log(pessoas[3])
-console.log(pessoas[4])
