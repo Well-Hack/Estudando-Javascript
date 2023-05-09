@@ -10,11 +10,8 @@
 
 let nomes = ["Juliana", "Wellerson", "Carlos", "Julia", "Marcia", "Luana"]
 
-let nome2 = nomes.indexOf("Wellerson")
-
-if(nome2 = "Wellerson"){
-    console.log("Nome encontrado")
+if(nomes.includes("Wellerson")){
+    console.log("Nome foi encontrado")
 }else{
-    console.log("Nome não encontrado")
+    console.log("O nome não foi encontrado")
 }
-
