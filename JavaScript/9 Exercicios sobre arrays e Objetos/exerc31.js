@@ -15,4 +15,14 @@ let arr1 = [1,2,3,4,5,6]
 
 let arr2 = [1,2,3,4]
 
-fuction verificar_elementos(arr)
+function verificar_elementos(arr){
+    if(arr.length >= 5){
+        console.log("Muitos elementos");
+    }else{
+        console.log("Poucos elementos")
+    }
+}
+
+
+verificar_elementos(arr1);
+verificar_elementos(arr2);
