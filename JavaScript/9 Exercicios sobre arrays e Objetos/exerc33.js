@@ -8,3 +8,12 @@
 
 */
 
+let dados = {
+    "Nome": "Wellerson",
+    "Signo": "Touro",
+    "Idade": 27,
+}
+
+console.log(dados.Nome)
+console.log(dados.Signo)
+console.log(dados.Idade)

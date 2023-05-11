@@ -9,6 +9,9 @@ Faça uma interação entre todos eles e imprima no console o valor;
 
 let nomes = ["Carvalho", "Mario", "José", "Silvio", "Claudio"]
 
-for(let i = 0; i <= nomes.length - 1; i++){
-    console.log(`Olá ${nomes[i]}`)
+let b = 0
+
+while(b < 5){
+    console.log(`Olá, ${nomes[b]}`)
+    b++
 }
