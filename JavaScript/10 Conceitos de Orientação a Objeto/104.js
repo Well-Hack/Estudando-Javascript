@@ -7,8 +7,10 @@ const gato = {
         console.log("Miaaaaaaaaaaaaaaaaau")
     },
     set_raca: function(raca){
-        this.raca = raca;
-        
+        this.raca = raca;   
+    },
+    get_raca: function(){
+        return "A raça é: " + this.raca;
     }
 }
 
@@ -16,3 +18,4 @@ const gato = {
 console.log(gato.raca)
 gato.set_raca("Garfield")
 console.log(gato.raca)
+console.log(gato.get_raca())
