@@ -4,3 +4,6 @@ const pessoa = {
 
 console.log(Object.getPrototypeOf(pessoa))
 console.log(Object.getPrototypeOf(pessoa) ===  Object.prototype)
+
+
+console.log(pessoa.hasOwnProperty("maos"));
