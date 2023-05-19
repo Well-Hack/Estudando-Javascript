@@ -1,0 +1,6 @@
+Override nas propriedades do propriedades
+
+*Sempre que adicionamos uma propriedade a um objeto, é criada
+uma identica no prototype;
+
+*Podemos substituir a do prototype;
