@@ -16,3 +16,4 @@ console.log(labrador.patas)
 labrador.latir()
 
 console.log(Cachorro.prototype.raca);
+console.log(labrador.raca);
