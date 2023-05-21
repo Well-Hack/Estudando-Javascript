@@ -8,7 +8,7 @@ class Cachorro {
     }
 
 
-get getCor(){
+get get_Cor(){
     return this.cor;
 }
 
@@ -22,3 +22,7 @@ let pastor = new Cachorro("Pastor alemão", "Sem cor")
 
 
 console.log(pastor)
+
+pastor.set_cor = "Preto";
+
+console.log(pastor.get_Cor);
