@@ -1,0 +1,6 @@
+Herança(inheritance)
+
+* Uma classe pode herdar propriedades de outra classe por herança;
+
+* Para isso utilizamos extends;
+
