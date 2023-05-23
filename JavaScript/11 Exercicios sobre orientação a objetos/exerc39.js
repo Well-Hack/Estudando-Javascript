@@ -28,6 +28,10 @@ class Carro{
         this.gasolres -= litrosConsumidos;
 
     }
+    abastecer(l){
+        this.gasolres += l;
+    }
+
 }
 
 let carro = new Carro("Chevrolet", "Preto", 100, 14)
@@ -37,3 +41,7 @@ console.log(carro);
 carro.dirigir(100);
 
 console.log(carro);
+
+carro.abastecer(10);
+
+console.log(carro)
