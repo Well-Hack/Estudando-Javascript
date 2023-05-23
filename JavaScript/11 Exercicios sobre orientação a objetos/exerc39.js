@@ -9,12 +9,25 @@ gradativamente
 
 *E um de abastecer para aumentar a gasolina quando necessário;
 
+ESSE NÃO CONSEGUI FAZER, RESPOSTA DO PROFESSOR
+
 */
 
 class Carro{
-    constructor(marca, cor, gasolres){
+    constructor(marca, cor, gasolres, consumo){
         this.marca = marca;
         this.cor = cor;
         this.gasolres = gasolres;
+        this.consumo = consumo
+    }
+
+    dirigir(km){
+
+        let litrosConsumidos = km / this.consumo;
+
+        this gasolres -= litrosConsumidos;
+
     }
 }
+
+let carro = new Carro("Chevrolet", "Preto", 100)
