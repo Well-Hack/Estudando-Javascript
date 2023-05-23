@@ -17,6 +17,32 @@ class Endereco{
         this.Cidade = Cidade;
         this.Estado = Estado;
     }
+
+    set novaRua(novaRua){
+        this.Rua = novaRua;
+    }
+
+    set novoBairro(novoBairro){
+        this.Bairro = novoBairro;
+    }
+
+    set novaCidade(novaCidade){
+        this.Cidade = novaCidade;
+    }
+
+    set novoEstado(novoEstado){
+        this.Estado = novoEstado;
+    }
 }
 
-console.log(Endereco)
+let endereco = new Endereco("Rua Birinepe", "Jd. Cumbica", "Guarulhos", "São Paulo");
+
+
+console.log(endereco)
+
+endereco.novaRua = "Rua Felisburgo"
+endereco.novoBairro = "Parque Alvorada"
+endereco.novaCidade = "Guarulhos"
+endereco.novoEstado = "São Paulo"
+
+console.log(endereco)
