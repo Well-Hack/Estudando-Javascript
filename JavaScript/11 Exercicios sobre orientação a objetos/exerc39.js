@@ -25,9 +25,15 @@ class Carro{
 
         let litrosConsumidos = km / this.consumo;
 
-        this gasolres -= litrosConsumidos;
+        this.gasolres -= litrosConsumidos;
 
     }
 }
 
-let carro = new Carro("Chevrolet", "Preto", 100)
+let carro = new Carro("Chevrolet", "Preto", 100, 14)
+
+console.log(carro);
+
+carro.dirigir(100);
+
+console.log(carro);
