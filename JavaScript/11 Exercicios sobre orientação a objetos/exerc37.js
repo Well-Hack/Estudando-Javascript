@@ -45,10 +45,12 @@ class Carrinho{
                 let obj = this.itens[itemCarrinho];
                 let index = this.itens.findIndex(function(obj){return obj.id == item.id})
 
-                this.itens.splice(index, 0);
-
                 this.qtd -= this.itens[itemCarrinho].qtd;
-                this.valorTotal -= item.preco * item.qtd
+                this.valorTotal -= this.itens[itemCarrinho].preco * this.itens[itemCarrinho].qtd
+
+                this.itens.splice(index, 1);
+
+                
             }
         }      
     
