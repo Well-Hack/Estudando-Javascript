@@ -12,9 +12,11 @@
 
 class Endereco{
     constructor(Rua, Bairro, Cidade, Estado){
-        this.Rua = Rua,
-        this.Bairro = Bairro,
-        this.Cidade = Cidade,
-        this.Estado = Estado
+        this.Rua = Rua;
+        this.Bairro = Bairro;
+        this.Cidade = Cidade;
+        this.Estado = Estado;
     }
 }
+
+console.log(Endereco)
