@@ -37,6 +37,18 @@ class Conta {
         this.saldocc += valor;
         this.saldocp -= valor;
     }
+
+    jurosdeaniversariocc(valor){
+        this.saldocp -= valor;
+        this.saldocc += valor;
+    }
+
+    jurosdeaniversario(){
+        let juros = (saldocp * this.juros) / 100
+        this.saldocp += juros;
+    }
+
+
 }
 
 let conta = new Conta(1000, 5000, 1);
@@ -54,3 +66,5 @@ console.log(conta)
 conta.transferenciacp(3000);
 
 console.log(conta)
+
+conta.jurosdeaniversario
