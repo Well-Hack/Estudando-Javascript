@@ -12,6 +12,7 @@ dinheiro da poupança para a corrente;
 
 *Na conta especial os juros são dobrados da conta normal;
 
+BEM DIFICIL
 */
 
 class Conta {
@@ -77,3 +78,15 @@ console.log(conta)
 conta.jurosdeaniversario();
 
 console.log(conta)
+
+let conta2 = new Conta_Especial(10000, 50000, 1)
+
+console.log(conta2)
+
+conta2.saque(5000);
+
+console.log(conta2);
+
+conta2.jurosdeaniversario();
+
+console.log(conta2)
