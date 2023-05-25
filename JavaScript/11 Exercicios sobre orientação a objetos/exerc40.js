@@ -44,11 +44,18 @@ class Conta {
     }
 
     jurosdeaniversario(){
-        let juros = (saldocp * this.juros) / 100
+        let juros = (this.saldocp * this.juros) / 100
         this.saldocp += juros;
     }
 
 
+}
+
+
+class Conta_Especial extends Conta{
+    constructor(saldocc, saldocp, juros){
+        super(saldocc, saldocp, juros*2)
+    }
 }
 
 let conta = new Conta(1000, 5000, 1);
@@ -67,4 +74,6 @@ conta.transferenciacp(3000);
 
 console.log(conta)
 
-conta.jurosdeaniversario
+conta.jurosdeaniversario();
+
+console.log(conta)
