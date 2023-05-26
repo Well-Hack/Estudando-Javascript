@@ -7,7 +7,7 @@ delete Object.prototype;
 
 fuvtion teste(){
     "Use strict"
-    opa = "teste";
+    let opa = "teste";
 }
 
 teste()
