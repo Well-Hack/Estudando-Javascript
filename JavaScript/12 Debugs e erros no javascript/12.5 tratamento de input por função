@@ -1,0 +1,8 @@
+ tratamentos de inputs por função
+
+* Não podemos controlar os dados que o usuário enviar, então
+para o bom funcionamento do software, devemos
+tratar eles;
+
+* Veja um exemplo de tratamento de number;
+
